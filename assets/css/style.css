@@ -171,11 +171,16 @@ body{
     min-height: 400px;
     margin: 10px 0px;
     border-bottom: 3px solid #F49F00;
+    background-color: #f49f0010;
+}
+
+.about-section .card{
+    background-color: #fff;
 }
 
 .about-section .card .card-header,
 .row-cards .card .card-header{
-    background-color: #fff;
+    background-color: transparent;
     border: 0;
     display: flex;
     align-items: center;
@@ -202,11 +207,12 @@ body{
 }
 
 .dashboard-section,
-.rocket-section{
+.rocket-section,
+.product-section{
     background-color: #f49f001e;
 }
 
-.rocket-title:after{
+.section-title:after{
     content: '';
     display: block;
     width: 80px;
@@ -223,18 +229,31 @@ body{
     min-height: 600px;
 }
 
-.dashboard-title:after{
-    margin-left: auto;
-    content: '';
-    display: block;
-    width: 80px;
-    height: 4px;
-    margin-top: 20px;
-    background-color: #F49F00;
-}
-
 .dashboard-section img{
     width: 100%;
+}
+
+.product-section img{
+    width: 200px;
+}
+
+.product-section a{
+    background-color: #F49F00;
+    padding: 15px 25px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 3px;
+    transition: 0.2s;
+}
+
+.product-section a:hover{
+    background-color: rgb(218, 143, 4);
+}
+
+.queries a{
+    color: #F49F00;
+    font-weight: bold;
+    margin: 0px 8px;
 }
 
 footer{
