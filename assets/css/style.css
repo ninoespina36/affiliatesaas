@@ -173,7 +173,7 @@ body{
 }
 
 .search-container{
-    background-color: rgb(246, 246, 246);
+    background-color: #f49f001e;
 }
 
 .about-section .card,
@@ -282,11 +282,11 @@ body{
     margin-top: 20px;
 }
 
-.breadcrumb-item+.breadcrumb-item::before{
+.jumbotron .breadcrumb-item+.breadcrumb-item::before{
     color: #fff;
 }
 
-.breadcrumb li.active{ 
+.jumbotron .breadcrumb li.active{ 
     color: #cecece;
 } 
 
