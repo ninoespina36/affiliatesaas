@@ -255,21 +255,24 @@ body{
     width: 200px;
 }
 
+.pricing-demo-section a,
 .demo-section a,
 .product-section a{
     background-color: #F49F00;
     padding: 15px 25px;
     text-decoration: none;
-    color: #fff;
+    color: #fff !important;
     border-radius: 3px;
     transition: 0.2s;
 }
 
+.pricing-demo-section a:hover,
 .demo-section a:hover,
 .product-section a:hover{
     background-color: rgb(218, 143, 4);
 }
 
+.pricing-module a,
 .consult a,
 .queries a{
     color: #F49F00;
@@ -299,6 +302,7 @@ body{
     color: #cecece;
 } 
 
+.pricing-module,
 .integrations-boosts,
 .features-list{
     background-color: #f49f001e;
@@ -318,6 +322,15 @@ body{
 
 .pricing-list{
     list-style-type: none;
+}
+
+.pricing-module .card{
+    min-height: auto;
+    background-color: #fff;
+}
+
+.pricing-demo-section a{
+    display: block;
 }
 
 .consult,
