@@ -150,8 +150,8 @@ body{
     width: 400px;
     padding: 10px;
     outline: none;
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
     border: 2px solid;
     border-color: #cecece;
     transition: 0.2s;
@@ -159,17 +159,17 @@ body{
 }
 
 .search input:focus{
-    border-color: #10416a;
+    border-color: #F49F00;
 }
 
 .search button{
     outline: none;
     width: 50px;
     border: 0;
-    background-color: #10416a;
+    background-color: #F49F00;
     color: #fff;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .search-container{
@@ -216,6 +216,7 @@ body{
     font-size: 0.9rem;
 }
 
+.knowledge-cards .card h4,
 .demo-videos-section .card .card-body h4,
 .about-section .card .card-body h4,
 .row-cards .card .card-body h4{
@@ -331,6 +332,27 @@ body{
 
 .pricing-demo-section a{
     display: block;
+}   
+
+.knowledge-cards .card{
+    min-height: 250px;
+}
+
+.knowledge-cards ul{
+    list-style-type: none;
+    padding-left: 10px;
+}
+.knowledge-cards ul li{
+    margin: 5px 0px;
+}
+
+.knowledge-cards ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+.knowledge-cards ul li a i{
+    color: #F49F00;
 }
 
 .consult,
