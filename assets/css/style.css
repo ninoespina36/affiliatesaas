@@ -316,6 +316,10 @@ body{
     color: #F49F00;
 }
 
+.pricing-list{
+    list-style-type: none;
+}
+
 .consult,
 footer{
     background-color: #10416a;
