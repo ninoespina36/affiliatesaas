@@ -262,6 +262,7 @@ body{
     background-color: rgb(218, 143, 4);
 }
 
+.consult a,
 .queries a{
     color: #F49F00;
     font-weight: bold;
@@ -290,6 +291,7 @@ body{
     color: #cecece;
 } 
 
+.integrations-boosts,
 .features-list{
     background-color: #f49f001e;
 }
@@ -298,7 +300,7 @@ body{
     margin: 20px auto;
 }
 
-
+.consult,
 footer{
     background-color: #10416a;
     color: rgb(243, 243, 243);
