@@ -27,6 +27,10 @@ body{
     width: 100px;
 }
 
+.nav-space{
+    padding-top: 90px;
+}
+
 .navbar{
     position: fixed;
     width: 100%;
@@ -263,6 +267,37 @@ body{
     font-weight: bold;
     margin: 0px 8px;
 }
+
+.jumbotron{
+    background-color: #10416a;
+}
+
+.jumbotron h2{
+    font-weight: bold;
+    color: #fff;
+}
+
+.jumbotron .breadcrumb{
+    background-color: transparent;
+    margin-top: 20px;
+}
+
+.breadcrumb-item+.breadcrumb-item::before{
+    color: #fff;
+}
+
+.breadcrumb li.active{ 
+    color: #cecece;
+} 
+
+.features-list{
+    background-color: #f49f001e;
+}
+
+.features-list .section-title:after{
+    margin: 20px auto;
+}
+
 
 footer{
     background-color: #10416a;
