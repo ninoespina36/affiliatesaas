@@ -176,6 +176,7 @@ body{
     background-color: #f49f001e;
 }
 
+.demo-videos-section .card,
 .about-section .card,
 .row-cards .card{
     border-radius: 10px;
@@ -186,10 +187,12 @@ body{
     background-color: #f49f0010;
 }
 
+.demo-videos-section .card,
 .about-section .card{
     background-color: #fff;
 }
 
+.demo-videos-section .card .card-header,
 .about-section .card .card-header,
 .row-cards .card .card-header{
     background-color: transparent;
@@ -206,12 +209,14 @@ body{
     width: 150px;
 }
 
+.demo-videos-section .card .card-body,
 .about-section .card .card-body,
 .row-cards .card .card-body{
     text-align: center;
     font-size: 0.9rem;
 }
 
+.demo-videos-section .card .card-body h4,
 .about-section .card .card-body h4,
 .row-cards .card .card-body h4{
     font-family: 'Lato-Black';
@@ -233,6 +238,7 @@ body{
     background-color: #F49F00;
 }
 
+.demo-videos-section,
 .about-section{
     background-color: #10416a;
 }
@@ -249,6 +255,7 @@ body{
     width: 200px;
 }
 
+.demo-section a,
 .product-section a{
     background-color: #F49F00;
     padding: 15px 25px;
@@ -258,6 +265,7 @@ body{
     transition: 0.2s;
 }
 
+.demo-section a:hover,
 .product-section a:hover{
     background-color: rgb(218, 143, 4);
 }
@@ -298,6 +306,14 @@ body{
 
 .features-list .section-title:after{
     margin: 20px auto;
+}
+
+.demo-videos-section .card{
+    min-height: auto;
+}
+
+.demo-videos-section .card .card-body h4{
+    color: #F49F00;
 }
 
 .consult,
