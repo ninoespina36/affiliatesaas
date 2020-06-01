@@ -355,6 +355,22 @@ body{
     color: #F49F00;
 }
 
+.reviews-slide .carousel-control-next{
+    transform: translateX(100%);
+}
+
+.reviews-slide .carousel-control-next-icon{
+    filter: brightness(0.2);
+}
+
+.reviews-slide .carousel-control-prev{
+    transform: translateX(-100%);
+}
+
+.reviews-slide .carousel-control-prev-icon{
+    filter: brightness(0.2);
+}
+
 .consult,
 footer{
     background-color: #10416a;
@@ -417,4 +433,13 @@ footer .rights{
 
 footer .rights a{
     color: #797979;
+}
+
+@media(max-width: 700px){
+    .reviews-slide .carousel-control-next{
+        transform: translateX(0);
+    }
+    .reviews-slide .carousel-control-prev{
+        transform: translateX(0);
+    }
 }
