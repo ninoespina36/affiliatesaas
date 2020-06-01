@@ -303,6 +303,7 @@ body{
     color: #cecece;
 } 
 
+.internal-page-queries,
 .pricing-module,
 .integrations-boosts,
 .features-list{
@@ -369,6 +370,14 @@ body{
 
 .reviews-slide .carousel-control-prev-icon{
     filter: brightness(0.2);
+}
+
+.internal-page-content h4{
+    font-weight: bold;
+}
+
+.internal-page-content .row-content{
+    margin-bottom: 50px;
 }
 
 .consult,
